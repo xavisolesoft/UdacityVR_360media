@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kava version="3.0.0.400">
+    <videos>
+        <video file="../Raw Footage/IndiaStreetRide/IndiaStreetRide-BackView.MP4" dt="1081" stereoAssignment="0"/>
+        <video file="../Raw Footage/IndiaStreetRide/IndiaStreetRide-FrontView.MP4" dt="0" stereoAssignment="0"/>
+    </videos>
+    <timeLine current="173144" start="0" end="177096" selectionStart="10923" selectionEnd="173144"/>
+    <options>
+        <stitch range="1" samples="5"/>
+        <color interval="5105"/>
+        <lens model="1" focal="7" k1="0" k2="0" k3="0"/>
+    </options>
+    <cameraTransitions>
+        <transition start="0" end="0" type="0">
+            <cameras>
+                <camera model="1" yaw="8.06047e-17" pitch="-1.1185e-16" roll="6.983e-18" f="5.23599" k1="0.9" k2="-0.686258" k3="0" offset_x="-3.0759" offset_y="16.538" fisheye_radius="2036.47" optimizationGroup="0"/>
+                <camera model="1" yaw="-2.94093" pitch="0.028646" roll="0.00860691" f="5.23599" k1="0.9" k2="-0.686258" k3="0" offset_x="-3.0759" offset_y="16.538" fisheye_radius="2036.47" optimizationGroup="1"/>
+            </cameras>
+        </transition>
+    </cameraTransitions>
+    <horizonTransitions>
+        <transition start="0" end="0" type="0">
+            <R R00="0.997647" R01="-1.90343e-9" R02="0.0685596" R10="1.89896e-9" R11="1" R12="1.30499e-10" R20="-0.0685596" R21="3.02159e-18" R22="0.997647"/>
+        </transition>
+    </horizonTransitions>
+    <colorTransitions>
+        <transition start="0" end="0" type="0" eqmode="1" colorDtScaler="1">
+            <histo hmin="0" hmax="1.00391" husermin="0" husermax="1" rusermin="0" rusermax="1" gusermin="0" gusermax="1" busermin="0" busermax="1" hgamma="1" rgamma="1" ggamma="1" bgamma="1"/>
+            <colors>
+                <color type="15" values="2.20 2.20 1.520784 -0.700000 0.980298 0.902518 1.078291 -0.018065 2.688093" version="2"/>
+                <color type="15" values="2.20 2.20 0.658342 -0.700000 1.018952 1.101873 1.078291 -0.018065 2.688093" version="2"/>
+            </colors>
+        </transition>
+    </colorTransitions>
+    <maskTransitions>
+        <transition start="0" end="0" type="0">
+            <maskPoints/>
+        </transition>
+    </maskTransitions>
+    <orientationTransitions>
+        <transition start="0" end="0" type="0">
+            <R R00="1" R01="0" R02="0" R10="0" R11="1" R12="0" R20="0" R21="0" R22="1"/>
+        </transition>
+    </orientationTransitions>
+    <projectionTransitions>
+        <transition start="0" end="0" type="0">
+            <projection type="0" xnMin="0" xnMax="1" ynMin="0" ynMax="1">
+                <params/>
+            </projection>
+        </transition>
+    </projectionTransitions>
+    <parallaxCompensationTransitions/>
+    <output individualVideos="0" frameNumbering="0" type="1" audio="0" stereoRenderMode="0" enableStereoMode="0" stereoInterocularNormalized="1" stereoConvergenceDegree="0"/>
+    <directorsCut enabled="0" sizeRatio="2"/>
+    <encodingRules presets="0;1;2;3;" quality="1" profile="2" framerateMode="1" standard="-1" framerate="0" vbitrate="0" abitrate="0" aspectRatio="1" timecodeSetting="0" timecodeReference="0" timecodeDropFlag="0" timecodeBurnin="0"/>
+    <pano>
+        <version filemodel="2.0" application="Autopano Video 3.0.0" id="0"/>
+        <editorOptions initialAnchors="15" autoCCUpdate="1" autoCCAutoLevel="1" crossStayActivated="1" useRelativePath="1"/>
+        <finalRender basename="%a" path="%p" fileType="jpg" fileCompression="12" fileDepth="8" interpolationMode="2" blendMode="2" outputPercent="100" nCols="4712" nRows="2356" dpi="72" overwrite="1" fileEmbedAll="0" removeAlpha="0" outputPanorama="1" outputLayers="0" outputPictures="0" multibandLevel="-2" alphaDiamond="0" exposureWeights="0" cutting="2" graphcutGhostFocal="0" bracketedGhost="0"/>
+        <layers>
+            <layer name="N_0" ouput="1">
+                <images>
+                    <image index="0" preview="1" output="1"/>
+                    <image index="1" preview="1" output="1"/>
+                </images>
+            </layer>
+        </layers>
+        <colorHisto hmin="0" hmax="1.00391" husermin="0" husermax="1" rusermin="0" rusermax="1" gusermin="0" gusermax="1" busermin="0" busermax="1" hgamma="1" rgamma="1" ggamma="1" bgamma="1"/>
+        <optim rms="3.44295" siftQuality="2" siftCpNumber="100" ransacModel="3">
+            <hardlink>
+                <link> 0 </link>
+                <link> 1 </link>
+            </hardlink>
+            <matLGLink>
+                <link> 0 0 1 </link>
+            </matLGLink>
+            <options automaticSteps="0" automaticSettings="0" focalHandling="-1" distoHandling="-1" offsetsHandling="-1" multipleVPHandling="0" yprScope="0" focalScope="2" distoScope="2" offsetScope="2" hScope="0" optLG="1" useGO="1" matrixLG="0" gridLG="0" optFinal1="1" optLens1="1" optLens2="1" stepGeomAnalysis="1" cleanPoints="1" cleanLinks="1" cbpMode="0" cbpThreshold="5" cbpLimit="50" cbpLinkThreshold="40" matLGMode="1" matLGRow="1" matLGStack="1" matLG360="0" matLGOverlapping="25" gaMode="0" calibratedRig="0"/>
+        </optim>
+        <colorCorrection eqMode="0" eqPerLayer="1" colorDtScaler="1"/>
+        <exposureWeighting enabled="0" tone="0.5" dark="0.5" light="0.5"/>
+        <projection fitMode="2" type="0" xnMin="0" xnMax="1" ynMin="0" ynMax="1">
+            <params/>
+        </projection>
+        <stacks>
+            <stack> 0 </stack>
+            <stack> 1 </stack>
+        </stacks>
+        <images>
+            <image>
+                <def filename="../Raw Footage/IndiaStreetRide/IndiaStreetRide-BackView.MP4.jpg" focal35mm="15" lensModel="1" fisheyeRadius="2036.47" fisheyeCoffX="0" fisheyeCoffY="0" speed="0" aperture="0"/>
+                <camera model="1" yaw="3.02872e-18" pitch="0.0686134" roll="1.90343e-9" f="4.75057" k1="0.64694" k2="-0.460956" k3="0" offset_x="2.86613" offset_y="-0.922109" fisheye_radius="1579.94" optimizationGroup="0"/>
+                <color type="15" values="2.20 2.20 1.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000" version="2"/>
+            </image>
+            <image>
+                <def filename="../Raw Footage/IndiaStreetRide/IndiaStreetRide-FrontView.MP4.jpg" focal35mm="15" lensModel="1" fisheyeRadius="2036.47" fisheyeCoffX="0" fisheyeCoffY="0" speed="0" aperture="0"/>
+                <camera model="1" yaw="-2.92089" pitch="0.0079192" roll="1.94176e-9" f="4.75057" k1="0.64694" k2="-0.460956" k3="0" offset_x="2.86613" offset_y="-0.922109" fisheye_radius="1579.94" optimizationGroup="0"/>
+                <color type="15" values="2.20 2.20 1.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000" version="2"/>
+            </image>
+        </images>
+        <thumbnail width="0" height="0" depth="0" data=""/>
+    </pano>
+    <stabilization sigma="30" resync="0">
+        <video file="../Raw Footage/IndiaStreetRide/IndiaStreetRide-BackView.MP4"/>
+        <video file="../Raw Footage/IndiaStreetRide/IndiaStreetRide-FrontView.MP4"/>
+        <mergedMotions deltaRotation_robust="" rigNotStabilizedPart="" rigStabilisationRotation=""/>
+    </stabilization>
+    <rmsCurve/>
+    <rmsCurveCache>
+        <autorizedLinks/>
+    </rmsCurveCache>
+    <exposure>
+        <video file="../Raw Footage/IndiaStreetRide/IndiaStreetRide-BackView.MP4"/>
+        <video file="../Raw Footage/IndiaStreetRide/IndiaStreetRide-FrontView.MP4"/>
+    </exposure>
+</kava>
