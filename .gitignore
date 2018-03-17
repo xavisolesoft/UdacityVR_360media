@@ -1,8 +1,6 @@
 /3DVideoViewer/[Ll]ibrary/
 /3DVideoViewer/[Tt]emp/
 /3DVideoViewer/[Oo]bj/
-/3DVideoViewer/[Bb]uild/
-/3DVideoViewer/[Bb]uilds/
 /3DVideoViewer/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
@@ -29,8 +27,6 @@ ExportedObj/
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
 
-# Builds
-*.apk
 *.unitypackage
 
 IndiaStreetRide/Raw Footage/IndiaStreetRide/*
