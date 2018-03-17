@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class VideoControl : MonoBehaviour {
 
@@ -35,5 +36,16 @@ public class VideoControl : MonoBehaviour {
 			audioSource.Play();
 		}
 
+	}
+
+	public void RestartVideo(){
+		SceneManager.LoadScene("Scene");
+	}
+
+	public void PauseVideo(){
+		if (videoPlayer.isPlaying)
+			videoPlayer.Pause ();
+		else
+			videoPlayer.Play();
 	}
 }
