@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 99859226}
   - component: {fileID: 99859225}
   m_Layer: 5
-  m_Name: PauseButton
+  m_Name: PauseResumeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -264,7 +264,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 853948507}
-        m_MethodName: PauseVideo
+        m_MethodName: PauseResumeVideo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -756,6 +756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe9da4ab9fa5254395e20329243403f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseResumeButton: {fileID: 99859225}
   audioSource: {fileID: 0}
 --- !u!114 &853948508
 MonoBehaviour:
@@ -774,7 +775,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 853948507}
-          m_MethodName: PauseVideo
+          m_MethodName: PauseResumeVideo
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

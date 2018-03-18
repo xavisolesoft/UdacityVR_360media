@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class VideoControl : MonoBehaviour {
+	public Button pauseResumeButton;
 
 	private UnityEngine.Video.VideoPlayer videoPlayer;
 
@@ -29,10 +31,7 @@ public class VideoControl : MonoBehaviour {
 		//Play or pause the video.
 		if (Input.GetKeyDown ("space")) 
 		{
-			if (videoPlayer.isPlaying)
-				videoPlayer.Pause ();
-			else
-				videoPlayer.Play();
+			PauseResumeVideo ();
 			audioSource.Play();
 		}
 
@@ -42,10 +41,13 @@ public class VideoControl : MonoBehaviour {
 		SceneManager.LoadScene("Scene");
 	}
 
-	public void PauseVideo(){
-		if (videoPlayer.isPlaying)
+	public void PauseResumeVideo(){
+		if (videoPlayer.isPlaying) {
 			videoPlayer.Pause ();
-		else
+			pauseResumeButton.GetComponentInChildren<Text> ().text = "Resume";
+		}else{
 			videoPlayer.Play();
+			pauseResumeButton.GetComponentInChildren<Text> ().text = "Pause";
+		}
 	}
 }
