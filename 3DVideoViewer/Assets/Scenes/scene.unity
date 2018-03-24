@@ -5260,7 +5260,7 @@ VideoPlayer:
   m_AudioOutputMode: 1
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: https://raw.githubusercontent.com/xavisolesoft/UdacityVR_360media/master/3DVideoViewer/IndiaStreetRideTunel.mp4
+  m_Url: https://raw.githubusercontent.com/xavisolesoft/UdacityVR_360media/master/3DVideoViewer/BankokTempleGarden.mpg
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
