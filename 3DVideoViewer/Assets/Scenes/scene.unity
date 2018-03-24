@@ -4711,7 +4711,7 @@ VideoPlayer:
   m_AudioOutputMode: 1
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: https://raw.githubusercontent.com/xavisolesoft/UdacityVR_360media/master/3DVideoViewer/IndiaStreetRide.mp4
+  m_Url: https://raw.githubusercontent.com/xavisolesoft/UdacityVR_360media/master/3DVideoViewer/BankokTemple.mp4
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
@@ -4964,7 +4964,7 @@ MonoBehaviour:
   gainDb: 0
   occlusionEnabled: 0
   playOnAwake: 0
-  sourceClip: {fileID: 8300000, guid: da0d3b890fdf38249b57bfa86727bb72, type: 3}
+  sourceClip: {fileID: 8300000, guid: d0d14e005d064da428471bb1dd001633, type: 3}
   sourceLoop: 0
   sourceMute: 0
   sourcePitch: 1
