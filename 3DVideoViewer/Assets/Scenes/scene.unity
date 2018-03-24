@@ -630,7 +630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000008791685, y: -49}
+  m_AnchoredPosition: {x: 0.0000008791685, y: -201}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &527203104
@@ -4617,13 +4617,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 853948501}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &853948507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4964,7 +4964,7 @@ MonoBehaviour:
   gainDb: 0
   occlusionEnabled: 0
   playOnAwake: 0
-  sourceClip: {fileID: 8300000, guid: f52ecd5a8f294d844b924be2f2201cd2, type: 3}
+  sourceClip: {fileID: 8300000, guid: da0d3b890fdf38249b57bfa86727bb72, type: 3}
   sourceLoop: 0
   sourceMute: 0
   sourcePitch: 1
@@ -5260,7 +5260,7 @@ VideoPlayer:
   m_AudioOutputMode: 1
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: https://raw.githubusercontent.com/xavisolesoft/UdacityVR_360media/master/3DVideoViewer/BankokTempleGarden.mpg
+  m_Url: https://raw.githubusercontent.com/xavisolesoft/UdacityVR_360media/master/3DVideoViewer/BankokTempleGarden.mp4
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
@@ -5275,13 +5275,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1406592588}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1474319926
 GameObject:
   m_ObjectHideFlags: 0
@@ -5636,7 +5636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000025704503, y: -203}
+  m_AnchoredPosition: {x: 0.00000025704503, y: -48}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1539386588
@@ -6207,7 +6207,7 @@ MonoBehaviour:
   gainDb: 0
   occlusionEnabled: 0
   playOnAwake: 0
-  sourceClip: {fileID: 8300000, guid: b534cbbe5a07f3c4d996e677a465aac5, type: 3}
+  sourceClip: {fileID: 8300000, guid: da0d3b890fdf38249b57bfa86727bb72, type: 3}
   sourceLoop: 0
   sourceMute: 0
   sourcePitch: 1
